@@ -46,3 +46,9 @@ body {
 .date span:first-child::before {
     content: none;
 }
+
+@media screen and (max-width: 500px) {
+    .date {
+        font-size: 1.8rem;
+    }
+}
